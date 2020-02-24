@@ -19,7 +19,7 @@ Press 5 to exit program
 The 'Add a new contact menu'
 ```
 You have chosen to add a new contact: 
-Please enter the name of the Person
+Please enter the name of the directoryimplementation.Person
 First Name: Divyansh
 Last Name: Bhardwaj
 Contact Number: 1234567891
@@ -30,11 +30,11 @@ Would you like to add email address? (y/n): y
 Email Address: divyansh.bhardwaj@gla.ac.in
 ```
 Information about the 'add a contact menu'
-1. This program will store this `Person` as a type (you have to create a Person class).
+1. This program will store this `directoryimplementation.Person` as a type (you have to create a directoryimplementation.Person class).
 That means this program uses a list of `Persons`.
 
 ```java
-public class Person {
+public class directoryimplementation.Person {
     // a field to store the first name
     // a field to store the last name
     // a list to store multiple contact numbers (i.e a list of numbers)
@@ -61,8 +61,8 @@ Email address: robin@blue.genie
 Information about the `view all contacts menu`
 1. No matter how the user adds the contacts in the list,
 they should always be alphabetically ordered on the basis of the first name.
-2. If the `Person` has only one contact number, then the contact card should show
-the number field as `Number` only. If the `Person` has multiple contacts, then it
+2. If the `directoryimplementation.Person` has only one contact number, then the contact card should show
+the number field as `Number` only. If the `directoryimplementation.Person` has multiple contacts, then it
 should show `Number(s)`.
 --- 
 
@@ -79,7 +79,7 @@ Email address: jim@ace.ventura
 -------- * -------- * -------- * --------
 ```
 Information about the above menu
-1. There can be multiple `Person` objects with the same name, in such a case, 
+1. There can be multiple `directoryimplementation.Person` objects with the same name, in such a case, 
 show all the matches.
 2. If nothing is found, print `NO RESULTS FOUND!`
 ---
@@ -94,7 +94,7 @@ Jim Carrey's contact deleted from list!
 ```
 ---
 
-Kindly DO NOT create the program in a single `Main` class. Try out some Object-Oriented Programming and
+Kindly DO NOT create the program in a single `directoryimplementation.Main` class. Try out some Object-Oriented Programming and
 use your skills from your software engineering classes as well.
 
 Steps to attempt this assignment:
